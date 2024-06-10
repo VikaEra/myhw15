@@ -1,6 +1,5 @@
 package ru.netology;
 
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -81,7 +80,7 @@ public class GameTest {
     }
 
     @Test
-    public void bothPlayersNotRegistered() {
+    public void testBothPlayersNotRegistered() {
         Player player1 = new Player(1, "Player1", 80);
         Player player2 = new Player(2, "Player2", 60);
 
